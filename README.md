@@ -28,7 +28,7 @@ The processor supports the following instructions: **add, sub, addi, lw, sw, bne
 
 ## Instructions
 
-__Section of code in Assembly that will be placed in instruction memory, starting at position 0, to be executed by the processor.__
+__Assembly instructions that will be placed in instruction memory, starting at position 0, to be executed by the processor.__
 
 ```assembly
 addi $0, $0, 0      # Not necessary (registers are already zeroed)
