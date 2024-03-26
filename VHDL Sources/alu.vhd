@@ -26,9 +26,9 @@ component full_adder_n
   GENERIC(N : INTEGER:=32 );
   port(
    Cin : IN STD_LOGIC;
-   X : IN STD_LOGIC_VECTOR(N DOWNTO 0);
-   Y : IN STD_LOGIC_VECTOR(N DOWNTO 0);
-   S : OUT STD_LOGIC_VECTOR(N DOWNTO 0);
+   X : IN STD_LOGIC_VECTOR(N-1 DOWNTO 0);
+   Y : IN STD_LOGIC_VECTOR(N-1 DOWNTO 0);
+   S : OUT STD_LOGIC_VECTOR(N-1 DOWNTO 0);
    Cout : OUT STD_LOGIC);
 end component;
   signal sum : std_logic_vector(31 downto 0);
